@@ -1,7 +1,7 @@
 var CACHE_NAME = "my-site-cache-v1";
 const DATA_CACHE_NAME = "data-cache-v1";
 
-var urlsToCache = [
+var cachedFiles = [
   "/",
   "/db.js",
   "/index.js",
@@ -16,7 +16,7 @@ self.addEventListener("install", function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
       console.log("Opened cache");
-      return cache.addAll(urlsToCache);
+      return cache.addAll(cachedFiles);
     })
   );
 });
