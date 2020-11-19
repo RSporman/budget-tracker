@@ -1,0 +1,30 @@
+{
+  "name": "budget-tracker",
+  "version": "1.0.0",
+  "description": "budget-app",
+  "main": "server.js",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSporman/budget-tracker.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Bobby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RSporman/budget-tracker/issues"
+  },
+  "homepage": "https://github.com/RSporman/budget-tracker#readme"
+}
