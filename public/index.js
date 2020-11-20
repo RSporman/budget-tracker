@@ -138,10 +138,7 @@ function sendTransaction(isAdding) {
       }
     })
     .catch(err => {
-
       saveRecord(transaction);
-
-
       nameEl.value = "";
       amountEl.value = "";
     });
